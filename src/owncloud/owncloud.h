@@ -27,6 +27,10 @@
 
 class QWizard;
 
+namespace KDeclarative {
+    class QmlObject;
+}
+
 class OwnCloudWizard : public KAccountsUiPlugin
 {
     Q_OBJECT
@@ -66,6 +70,7 @@ private:
     QString m_providerName;
 
     QHash<QString, int> m_services;
+    KDeclarative::QmlObject *m_object;
 };
 
 #endif //OWNCLOUD_H
