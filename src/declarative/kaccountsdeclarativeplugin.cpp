@@ -18,9 +18,11 @@
 
 #include "kaccountsdeclarativeplugin.h"
 #include "../jobs/createaccount.h"
+#include "../jobs/accountservicetoggle.h"
 #include <qqml.h>
 
 void KAccountsDeclarativePlugin::registerTypes(const char* uri)
 {
     qmlRegisterType<CreateAccount>(uri, 1, 0, "CreateAccount");
+    qmlRegisterType<AccountServiceToggle>(uri, 1, 1, "AccountServiceToggle");
 }
