@@ -65,7 +65,7 @@ msgid ""
 "change its display name by clicking the edit icon above."
 msgstr ""
 "No hi ha cap servei configurable per a este compte. Encara podreu canviar el "
-"nom que es mostrarà fent clic en la icona d'edició de dalt."
+"nom que es mostrarà fent clic damunt de la icona d'edició de dalt."
 
 #: src/kcm/package/contents/ui/AvailableAccounts.qml:19
 #, kde-format
@@ -206,6 +206,3 @@ msgstr "No s'han pogut trobar les credencials"
 #, kde-format
 msgid "Could not create auth session"
 msgstr "No s'ha pogut crear la sessió d'autorització"
-
-#~ msgid "Can't open wallet"
-#~ msgstr "No s'ha pogut obrir la cartera"
